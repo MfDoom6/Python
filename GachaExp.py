@@ -1,6 +1,6 @@
 import random
 
-def luck_game():
+def Gacha_game():
     tries = 0
     max_tries = 10
     target_number = 40
@@ -25,4 +25,4 @@ def luck_game():
     if tries == max_tries:
         print("Game over! You've used all 10 tries.")
 
-luck_game()
+Gacha_game()
